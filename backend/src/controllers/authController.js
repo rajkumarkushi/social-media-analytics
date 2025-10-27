@@ -1,6 +1,6 @@
 import { register, login as loginService } from "../services/authService.js";
 import jwt from "jsonwebtoken";
-import redis from "../config/redis.js";
+// import redis from "../config/redis.js";
 
 // Helper functions
 const generateAccessToken = (user) =>
